@@ -1,0 +1,42 @@
+body{
+    font-family: "Roboto";
+}
+.header, .hero {
+    background-color: #1F2937;
+
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px auto;
+
+}
+
+.header li {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+    display: inline; 
+}
+
+.hero{
+    display: flex;
+}
+.hero .title{
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero .subtext{
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.hero img{
+    width: 200px;
+    height: auto;
+}
