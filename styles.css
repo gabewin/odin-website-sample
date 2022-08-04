@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body{
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
+
 }
 .header, .hero {
     background-color: #1F2937;
@@ -10,11 +12,14 @@ body{
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
-    padding: 10px auto;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
+.header ul{
+    padding: 0;
+}
 .header li {
     list-style: none;
     font-size: 18px;
@@ -24,6 +29,14 @@ body{
 
 .hero{
     display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 100px 0;
+}
+
+.hero-left{
+    width: 400px;
+    height: auto;
 }
 .hero .title{
     font-weight: extra-bold;
@@ -34,9 +47,18 @@ body{
 .hero .subtext{
     font-size: 18px;
     color: #E5E7EB; 
+    padding: 10px 0;
 }
 
 .hero img{
-    width: 200px;
-    height: auto;
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
 }
